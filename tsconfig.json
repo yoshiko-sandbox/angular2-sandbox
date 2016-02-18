@@ -5,9 +5,10 @@
     "removeComments": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "outDir": "./src/.tmp"
   },
   "files": [
-    "./index.ts"
+    "./src/app/app.ts"
   ]
 }

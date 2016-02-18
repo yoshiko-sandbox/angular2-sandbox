@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc -p ./",
-    "browserify": "browserify ./index.js -t babelify -o ./bundle.js",
+    "browserify": "browserify ./src/.tmp/app.js -t babelify -o ./src/dist/bundle.js",
     "build": "npm run tsc && npm run browserify"
   },
   "babel": {
